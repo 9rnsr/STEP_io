@@ -1,0 +1,657 @@
+2. 6. 4 Extrema between Surfaces
+
+The GeomAPI_ExtremaSurfaceSurface
+
+
+
+----------------------------------------
+box_1.step
+      ...    Step File Reading : C:\Users\khara\dev\STEP_io\TestModel\box_1.step
+      ...    STEP File   Read    ...
+Elapsed time: 0 Hours 0 Minutes 0.00987485889345 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+      ... Step File loaded  ...
+Elapsed time: 0 Hours 0 Minutes 0.0150953583652 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0 seconds
+   630 records (entities,sub-lists,scopes), 1515 parameters
+
+      ... Parameters prepared ... Elapsed time: 0 Hours 0 Minutes 0.0546522805234 Seconds
+CPU user time: 0.0624004 seconds
+CPU system time: 0 seconds
+      ...   Objets analysed  ...
+Elapsed time: 0 Hours 0 Minutes 0.0881926169386 Seconds
+CPU user time: 0.1092007 seconds
+CPU system time: 0 seconds
+  STEP Loading done : 384 Entities
+Preprocessor version detected: Open CASCADE STEP processor 6.8
+Info: ShapeProcess_Context: Reload Resource_Manager:  -> STEP
+Warning: XSAlgo_AlgoContainer::ProcessShape(): Sequence FromSTEP.exec.op is not defined in read.step.resource.name resou
+rce; do default processing
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 6
+//What is?// NB WIRES: 6
+//What is?// NB EDGES: 12
+//What is?// NB VERTEXES: 8
+Warning: no validation props found in the model
+IsRoot = 0, IsImported = 0
+labels.Length = 2
+labels[1]
+ shape = 1 simple = 0 sub = 0 free = 1
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[1] shape type = 0
+COMPOUND [
+  SOLID [
+    SHELL [
+      FACE(Plane)(REVERSED)
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(0, 0, 0) --> VERTEX2(0, 0, 10) ]
+          EDGE(FORWARD) [ VERTEX1(0, 0, 10) --> VERTEX2(0, 10, 10) ]
+          EDGE(REVERSED) [ VERTEX1(0, 10, 0) <-- VERTEX2(0, 10, 10) ]
+          EDGE(REVERSED) [ VERTEX1(0, 0, 0) <-- VERTEX2(0, 10, 0) ]
+        ]
+      ]
+      FACE(Plane)(FORWARD)
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(10, 0, 0) <-- VERTEX2(10, 0, 10) ]
+          EDGE(FORWARD) [ VERTEX1(10, 0, 0) --> VERTEX2(10, 10, 0) ]
+          EDGE(FORWARD) [ VERTEX1(10, 10, 0) --> VERTEX2(10, 10, 10) ]
+          EDGE(REVERSED) [ VERTEX1(10, 0, 10) <-- VERTEX2(10, 10, 10) ]
+        ]
+      ]
+      FACE(Plane)(REVERSED)
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(0, 0, 0) --> VERTEX2(10, 0, 0) ]
+          EDGE(FORWARD) [ VERTEX1(10, 0, 0) --> VERTEX2(10, 0, 10) ]
+          EDGE(REVERSED) [ VERTEX1(0, 0, 10) <-- VERTEX2(10, 0, 10) ]
+          EDGE(REVERSED) [ VERTEX1(0, 0, 0) <-- VERTEX2(0, 0, 10) ]
+        ]
+      ]
+      FACE(Plane)(FORWARD)
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(0, 10, 0) <-- VERTEX2(10, 10, 0) ]
+          EDGE(FORWARD) [ VERTEX1(0, 10, 0) --> VERTEX2(0, 10, 10) ]
+          EDGE(FORWARD) [ VERTEX1(0, 10, 10) --> VERTEX2(10, 10, 10) ]
+          EDGE(REVERSED) [ VERTEX1(10, 10, 0) <-- VERTEX2(10, 10, 10) ]
+        ]
+      ]
+      FACE(Plane)(REVERSED)
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(0, 0, 0) --> VERTEX2(0, 10, 0) ]
+          EDGE(FORWARD) [ VERTEX1(0, 10, 0) --> VERTEX2(10, 10, 0) ]
+          EDGE(REVERSED) [ VERTEX1(10, 0, 0) <-- VERTEX2(10, 10, 0) ]
+          EDGE(REVERSED) [ VERTEX1(0, 0, 0) <-- VERTEX2(10, 0, 0) ]
+        ]
+      ]
+      FACE(Plane)(FORWARD)
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(0, 0, 10) <-- VERTEX2(0, 10, 10) ]
+          EDGE(FORWARD) [ VERTEX1(0, 0, 10) --> VERTEX2(10, 0, 10) ]
+          EDGE(FORWARD) [ VERTEX1(10, 0, 10) --> VERTEX2(10, 10, 10) ]
+          EDGE(REVERSED) [ VERTEX1(0, 10, 10) <-- VERTEX2(10, 10, 10) ]
+        ]
+      ]
+    ]
+  ]
+]
+
+labels[2]
+ shape = 1 simple = 1 sub = 0 free = 0
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+
+
+----------------------------------------
+cylinder_1.step
+      ...    Step File Reading : C:\Users\khara\dev\STEP_io\TestModel\cylinder_1.step
+      ...    STEP File   Read    ...
+Elapsed time: 0 Hours 0 Minutes 0.00810304062907 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+      ... Step File loaded  ...
+Elapsed time: 0 Hours 0 Minutes 0.0239195475588 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0 seconds
+   262 records (entities,sub-lists,scopes), 607 parameters
+
+      ... Parameters prepared ... Elapsed time: 0 Hours 0 Minutes 0.0452280754689 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0 seconds
+      ...   Objets analysed  ...
+Elapsed time: 0 Hours 0 Minutes 0.0558651448227 Seconds
+CPU user time: 0.0312002 seconds
+CPU system time: 0 seconds
+  STEP Loading done : 152 Entities
+Preprocessor version detected: Open CASCADE STEP processor 6.8
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 3
+//What is?// NB WIRES: 3
+//What is?// NB EDGES: 3
+//What is?// NB VERTEXES: 2
+Warning: no validation props found in the model
+IsRoot = 0, IsImported = 0
+labels.Length = 2
+labels[1]
+ shape = 1 simple = 0 sub = 0 free = 1
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[1] shape type = 0
+COMPOUND [
+  SOLID [
+    SHELL [
+      FACE(Cylinder)(FORWARD)
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(2, -4.89859e-016, 6) <-- VERTEX2(2, -4.89859e-016, 6) ]
+          EDGE(REVERSED) [ VERTEX1(2, -4.89859e-016, 0) <-- VERTEX2(2, -4.89859e-016, 6) ]
+          EDGE(FORWARD) [ VERTEX1(2, -4.89859e-016, 0) --> VERTEX2(2, -4.89859e-016, 0) ]
+          EDGE(FORWARD) [ VERTEX1(2, -4.89859e-016, 0) --> VERTEX2(2, -4.89859e-016, 6) ]
+        ]
+      ]
+      FACE(Plane)(FORWARD)
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(2, -4.89859e-016, 6) --> VERTEX2(2, -4.89859e-016, 6) ]
+        ]
+      ]
+      FACE(Plane)(REVERSED)
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(2, -4.89859e-016, 0) <-- VERTEX2(2, -4.89859e-016, 0) ]
+        ]
+      ]
+    ]
+  ]
+]
+
+labels[2]
+ shape = 1 simple = 1 sub = 0 free = 0
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+
+
+----------------------------------------
+sphere_1.step
+      ...    Step File Reading : C:\Users\khara\dev\STEP_io\TestModel\sphere_1.step
+      ...    STEP File   Read    ...
+Elapsed time: 0 Hours 0 Minutes 0.0202506722417 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0 seconds
+      ... Step File loaded  ...
+Elapsed time: 0 Hours 0 Minutes 0.0278691831045 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0 seconds
+   120 records (entities,sub-lists,scopes), 256 parameters
+
+      ... Parameters prepared ... Elapsed time: 0 Hours 0 Minutes 0.0476738212164 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0 seconds
+      ...   Objets analysed  ...
+Elapsed time: 0 Hours 0 Minutes 0.0583771027159 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0.0156001 seconds
+  STEP Loading done : 64 Entities
+Preprocessor version detected: Open CASCADE STEP processor 6.8
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 1
+//What is?// NB WIRES: 1
+//What is?// NB EDGES: 3
+//What is?// NB VERTEXES: 2
+Warning: no validation props found in the model
+IsRoot = 0, IsImported = 0
+labels.Length = 2
+labels[1]
+ shape = 1 simple = 0 sub = 0 free = 1
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[1] shape type = 0
+COMPOUND [
+  SOLID [
+    SHELL [
+      FACE(Sphere)(FORWARD)
+      .Location = (0, 0, 0),
+      .Radius = 5
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(3.06162e-016, 0, -5) <-- VERTEX2(3.06162e-016, 0, 5) ]
+          EDGE(FORWARD) [ VERTEX1(3.06162e-016, 0, -5) --> VERTEX2(3.06162e-016, 0, -5) ]
+          EDGE(FORWARD) [ VERTEX1(3.06162e-016, 0, -5) --> VERTEX2(3.06162e-016, 0, 5) ]
+          EDGE(REVERSED) [ VERTEX1(3.06162e-016, 0, 5) <-- VERTEX2(3.06162e-016, 0, 5) ]
+        ]
+      ]
+    ]
+  ]
+]
+
+labels[2]
+ shape = 1 simple = 1 sub = 0 free = 0
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+
+
+----------------------------------------
+sphere+sphere_1.step
+      ...    Step File Reading : C:\Users\khara\dev\STEP_io\TestModel\sphere+sphere_1.step
+      ...    STEP File   Read    ...
+Elapsed time: 0 Hours 0 Minutes 0.0241007329896 Seconds
+CPU user time: 0 seconds
+CPU system time: 0.0156001 seconds
+      ... Step File loaded  ...
+Elapsed time: 0 Hours 0 Minutes 0.0370639554458 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0.0156001 seconds
+   673 records (entities,sub-lists,scopes), 1676 parameters
+
+      ... Parameters prepared ... Elapsed time: 0 Hours 0 Minutes 0.0750825986033 Seconds
+CPU user time: 0.0312002 seconds
+CPU system time: 0.0156001 seconds
+      ...   Objets analysed  ...
+Elapsed time: 0 Hours 0 Minutes 0.105782482191 Seconds
+CPU user time: 0.0624004 seconds
+CPU system time: 0.0156001 seconds
+  STEP Loading done : 356 Entities
+Preprocessor version detected: Open CASCADE STEP processor 6.8
+Wire reversed
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 2
+//What is?// NB WIRES: 3
+//What is?// NB EDGES: 5
+//What is?// NB VERTEXES: 4
+Warning: no validation props found in the model
+IsRoot = 0, IsImported = 0
+labels.Length = 2
+labels[1]
+ shape = 1 simple = 0 sub = 0 free = 1
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[1] shape type = 0
+COMPOUND [
+  SOLID [
+    SHELL [
+      FACE(Sphere)(FORWARD)
+      .Location = (4, 4, 4),
+      .Radius = 5
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(4, 4, -1) <-- VERTEX2(4, 4, 9) ]
+          EDGE(FORWARD) [ VERTEX1(4, 4, -1) --> VERTEX2(4, 4, -1) ]
+          EDGE(FORWARD) [ VERTEX1(4, 4, -1) --> VERTEX2(4, 4, 9) ]
+          EDGE(REVERSED) [ VERTEX1(4, 4, 9) <-- VERTEX2(4, 4, 9) ]
+        ]
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(1.12917, -2.76567e-016, 4.87083) <-- VERTEX2(4.87083, -1.19301e-015, 1.12917) ]
+          EDGE(REVERSED) [ VERTEX1(4.87083, -1.19301e-015, 1.12917) <-- VERTEX2(1.12917, -2.76567e-016, 4.87083) ]
+        ]
+      ]
+      FACE(Sphere)(REVERSED)
+      .Location = (0, 0, 0),
+      .Radius = 5
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(4.87083, -1.19301e-015, 1.12917) --> VERTEX2(1.12917, -2.76567e-016, 4.87083) ]
+          EDGE(FORWARD) [ VERTEX1(1.12917, -2.76567e-016, 4.87083) --> VERTEX2(4.87083, -1.19301e-015, 1.12917) ]
+        ]
+      ]
+    ]
+  ]
+]
+
+labels[2]
+ shape = 1 simple = 1 sub = 0 free = 0
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+
+
+----------------------------------------
+sphere+sphere_1-0.step
+      ...    Step File Reading : C:\Users\khara\dev\STEP_io\TestModel\sphere+sphere_1-0.step
+      ...    STEP File   Read    ...
+Elapsed time: 0 Hours 0 Minutes 0.00774426269345 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+      ... Step File loaded  ...
+Elapsed time: 0 Hours 0 Minutes 0.012021879782 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+   194 records (entities,sub-lists,scopes), 416 parameters
+
+      ... Parameters prepared ... Elapsed time: 0 Hours 0 Minutes 0.0248018638231 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+      ...   Objets analysed  ...
+Elapsed time: 0 Hours 0 Minutes 0.0334720710525 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+  STEP Loading done : 107 Entities
+Preprocessor version detected: Open CASCADE STEP processor 6.8
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 1
+//What is?// NB WIRES: 1
+//What is?// NB EDGES: 3
+//What is?// NB VERTEXES: 2
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 1
+//What is?// NB WIRES: 1
+//What is?// NB EDGES: 3
+//What is?// NB VERTEXES: 2
+Warning: no validation props found in the model
+IsRoot = 0, IsImported = 0
+labels.Length = 3
+labels[1]
+ shape = 1 simple = 0 sub = 0 free = 1
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[1] shape type = 0
+COMPOUND [
+  SOLID [
+    SHELL [
+      FACE(Sphere)(FORWARD)
+      .Location = (0, 0, 0),
+      .Radius = 5
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(3.06162e-016, 0, -5) <-- VERTEX2(3.06162e-016, 0, 5) ]
+          EDGE(FORWARD) [ VERTEX1(3.06162e-016, 0, -5) --> VERTEX2(3.06162e-016, 0, -5) ]
+          EDGE(FORWARD) [ VERTEX1(3.06162e-016, 0, -5) --> VERTEX2(3.06162e-016, 0, 5) ]
+          EDGE(REVERSED) [ VERTEX1(3.06162e-016, 0, 5) <-- VERTEX2(3.06162e-016, 0, 5) ]
+        ]
+      ]
+    ]
+  ]
+  SOLID [
+    SHELL [
+      FACE(Sphere)(FORWARD)
+      .Location = (4, 4, 4),
+      .Radius = 5
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(4, 4, -1) <-- VERTEX2(4, 4, 9) ]
+          EDGE(FORWARD) [ VERTEX1(4, 4, -1) --> VERTEX2(4, 4, -1) ]
+          EDGE(FORWARD) [ VERTEX1(4, 4, -1) --> VERTEX2(4, 4, 9) ]
+          EDGE(REVERSED) [ VERTEX1(4, 4, 9) <-- VERTEX2(4, 4, 9) ]
+        ]
+      ]
+    ]
+  ]
+]
+
+labels[2]
+ shape = 1 simple = 1 sub = 0 free = 0
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[3]
+ shape = 1 simple = 1 sub = 0 free = 0
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+
+
+----------------------------------------
+sph+sph_1.step
+      ...    Step File Reading : C:\Users\khara\dev\STEP_io\TestModel\sph+sph_1.step
+      ...    STEP File   Read    ...
+Elapsed time: 0 Hours 0 Minutes 0.0206695030211 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+      ... Step File loaded  ...
+Elapsed time: 0 Hours 0 Minutes 0.0277403516229 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+   101 records (entities,sub-lists,scopes), 233 parameters
+
+      ... Parameters prepared ... Elapsed time: 0 Hours 0 Minutes 0.0473022115184 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0 seconds
+Report : 22 unknown entities
+      ...   Objets analysed  ...
+Elapsed time: 0 Hours 0 Minutes 0.0674661406083 Seconds
+CPU user time: 0.0312002 seconds
+CPU system time: 0 seconds
+  STEP Loading done : 57 Entities
+Preprocessor version detected: ST-DEVELOPER v15.2
+Wire reversed
+Wire reversed
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 2
+//What is?// NB WIRES: 2
+//What is?// NB EDGES: 1
+//What is?// NB VERTEXES: 1
+Warning: no styles are found in the model
+Warning: no validation props found in the model
+Warning: no styles are found in the model
+IsRoot = 0, IsImported = 0
+labels.Length = 1
+labels[1]
+ shape = 1 simple = 1 sub = 0 free = 1
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[1] shape type = 2
+SOLID [
+  SHELL [
+    FACE(Sphere)(FORWARD)
+    .Location = (-5, 5, 9),
+    .Radius = 5
+    [
+      WIRE [
+        EDGE(FORWARD) [ VERTEX1(-2.5, 4.32128, 4.7234) --> VERTEX2(-2.5, 4.32128, 4.7234) ]
+      ]
+    ]
+    FACE(Sphere)(FORWARD)
+    .Location = (0, 0, 5),
+    .Radius = 5
+    [
+      WIRE [
+        EDGE(REVERSED) [ VERTEX1(-2.5, 4.32128, 4.7234) <-- VERTEX2(-2.5, 4.32128, 4.7234) ]
+      ]
+    ]
+  ]
+]
+
+
+----------------------------------------
+MakeSphere(4,4,4) + MakeSphere(0,0,0) (simulate: sphere+sphere_1.step)
+
+COMPOUND [
+  SOLID [
+    SHELL [
+      FACE(Sphere)(FORWARD)
+      .Location = (4, 4, 4),
+      .Radius = 5
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(4, 4, -1) --> VERTEX2(4, 4, 9) ]
+          EDGE(REVERSED) [ VERTEX1(4, 4, 9) <-- VERTEX2(4, 4, 9) ]
+          EDGE(REVERSED) [ VERTEX1(4, 4, -1) <-- VERTEX2(4, 4, 9) ]
+          EDGE(FORWARD) [ VERTEX1(4, 4, -1) --> VERTEX2(4, 4, -1) ]
+        ]
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(1.12917, -2.76567e-016, 4.87083) <-- VERTEX2(4.87083, -1.19301e-015, 1.12917) ]
+          EDGE(REVERSED) [ VERTEX1(4.87083, -1.19301e-015, 1.12917) <-- VERTEX2(1.12917, -2.76567e-016, 4.87083) ]
+        ]
+      ]
+      FACE(Sphere)(FORWARD)
+      .Location = (0, 0, 0),
+      .Radius = 5
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(1.12917, -2.76567e-016, 4.87083) --> VERTEX2(3.06162e-016, -7.4988e-032, 5) ]
+          EDGE(REVERSED) [ VERTEX1(3.06162e-016, -7.4988e-032, 5) <-- VERTEX2(3.06162e-016, -7.4988e-032, 5) ]
+          EDGE(REVERSED) [ VERTEX1(1.12917, -2.76567e-016, 4.87083) <-- VERTEX2(3.06162e-016, -7.4988e-032, 5) ]
+          EDGE(FORWARD) [ VERTEX1(1.12917, -2.76567e-016, 4.87083) --> VERTEX2(4.87083, -1.19301e-015, 1.12917) ]
+          EDGE(REVERSED) [ VERTEX1(3.06162e-016, -7.4988e-032, -5) <-- VERTEX2(4.87083, -1.19301e-015, 1.12917) ]
+          EDGE(FORWARD) [ VERTEX1(3.06162e-016, -7.4988e-032, -5) --> VERTEX2(3.06162e-016, -7.4988e-032, -5) ]
+          EDGE(FORWARD) [ VERTEX1(3.06162e-016, -7.4988e-032, -5) --> VERTEX2(4.87083, -1.19301e-015, 1.12917) ]
+          EDGE(FORWARD) [ VERTEX1(4.87083, -1.19301e-015, 1.12917) --> VERTEX2(1.12917, -2.76567e-016, 4.87083) ]
+        ]
+      ]
+    ]
+  ]
+]
+
+
+----------------------------------------
+torus_1.step
+      ...    Step File Reading : C:\Users\khara\dev\STEP_io\TestModel\torus_1.step
+      ...    STEP File   Read    ...
+Elapsed time: 0 Hours 0 Minutes 0.019573665224 Seconds
+CPU user time: 0 seconds
+CPU system time: 0.0156001 seconds
+      ... Step File loaded  ...
+Elapsed time: 0 Hours 0 Minutes 0.0254906761693 Seconds
+CPU user time: 0 seconds
+CPU system time: 0.0156001 seconds
+   120 records (entities,sub-lists,scopes), 257 parameters
+
+      ... Parameters prepared ... Elapsed time: 0 Hours 0 Minutes 0.0419903495349 Seconds
+CPU user time: 0 seconds
+CPU system time: 0.0156001 seconds
+      ...   Objets analysed  ...
+Elapsed time: 0 Hours 0 Minutes 0.0500420628814 Seconds
+CPU user time: 0.0156001 seconds
+CPU system time: 0.0156001 seconds
+  STEP Loading done : 64 Entities
+Preprocessor version detected: Open CASCADE STEP processor 6.8
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 1
+//What is?// NB WIRES: 1
+//What is?// NB EDGES: 2
+//What is?// NB VERTEXES: 1
+Warning: no validation props found in the model
+IsRoot = 0, IsImported = 0
+labels.Length = 2
+labels[1]
+ shape = 1 simple = 0 sub = 0 free = 1
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[1] shape type = 0
+COMPOUND [
+  SOLID [
+    SHELL [
+      FACE(Torus)(FORWARD)
+      [
+        WIRE [
+          EDGE(REVERSED) [ VERTEX1(12, 0, 0) <-- VERTEX2(12, 0, 0) ]
+          EDGE(FORWARD) [ VERTEX1(12, 0, 0) --> VERTEX2(12, 0, 0) ]
+          EDGE(FORWARD) [ VERTEX1(12, 0, 0) --> VERTEX2(12, 0, 0) ]
+          EDGE(REVERSED) [ VERTEX1(12, 0, 0) <-- VERTEX2(12, 0, 0) ]
+        ]
+      ]
+    ]
+  ]
+]
+
+labels[2]
+ shape = 1 simple = 1 sub = 0 free = 0
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+
+
+----------------------------------------
+cone+sphere_1.step
+      ...    Step File Reading : C:\Users\khara\dev\STEP_io\TestModel\cone+sphere_1.step
+      ...    STEP File   Read    ...
+Elapsed time: 0 Hours 0 Minutes 0.00938519649208 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+      ... Step File loaded  ...
+Elapsed time: 0 Hours 0 Minutes 0.0183597746072 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+   252 records (entities,sub-lists,scopes), 584 parameters
+
+      ... Parameters prepared ... Elapsed time: 0 Hours 0 Minutes 0.0407923702151 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+      ...   Objets analysed  ...
+Elapsed time: 0 Hours 0 Minutes 0.0609506532783 Seconds
+CPU user time: 0 seconds
+CPU system time: 0 seconds
+  STEP Loading done : 146 Entities
+Preprocessor version detected: Open CASCADE STEP processor 6.8
+//What is?// NB COMPOUNDS: 1
+//What is?// NB SOLIDS: 1
+//What is?// NB SHELLS: 1
+//What is?//    OPEN SHELLS: 0
+//What is?//    CLOSED SHELLS: 1
+//What is?// NB FACES: 2
+//What is?// NB WIRES: 2
+//What is?// NB EDGES: 5
+//What is?// NB VERTEXES: 3
+Warning: no validation props found in the model
+IsRoot = 0, IsImported = 0
+labels.Length = 2
+labels[1]
+ shape = 1 simple = 0 sub = 0 free = 1
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
+labels[1] shape type = 0
+COMPOUND [
+  SOLID [
+    SHELL [
+      FACE(Sphere)(FORWARD)
+      .Location = (0, 0, 5),
+      .Radius = 5
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(5, -1.22465e-015, 5) --> VERTEX2(3.06162e-016, -7.4988e-032, 10) ]
+          EDGE(FORWARD) [ VERTEX1(3.06162e-016, -7.4988e-032, 10) --> VERTEX2(3.06162e-016, -7.4988e-032, 10) ]
+          EDGE(REVERSED) [ VERTEX1(5, -1.22465e-015, 5) <-- VERTEX2(3.06162e-016, -7.4988e-032, 10) ]
+          EDGE(FORWARD) [ VERTEX1(5, -1.22465e-015, 5) --> VERTEX2(5, -1.22465e-015, 5) ]
+        ]
+      ]
+      FACE(Cone)(FORWARD)
+      [
+        WIRE [
+          EDGE(FORWARD) [ VERTEX1(0, 0, 0) --> VERTEX2(0, 0, 0) ]
+          EDGE(FORWARD) [ VERTEX1(0, 0, 0) --> VERTEX2(5, -1.22465e-015, 5) ]
+          EDGE(REVERSED) [ VERTEX1(5, -1.22465e-015, 5) <-- VERTEX2(5, -1.22465e-015, 5) ]
+          EDGE(REVERSED) [ VERTEX1(0, 0, 0) <-- VERTEX2(5, -1.22465e-015, 5) ]
+        ]
+      ]
+    ]
+  ]
+]
+
+labels[2]
+ shape = 1 simple = 1 sub = 0 free = 0
+ ref = 0 component = 0 compound = 0 extern = 0
+ top = 1
