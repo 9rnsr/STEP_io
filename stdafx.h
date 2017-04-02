@@ -14,6 +14,8 @@
 #include <iostream>
 
 #include <BRep_Tool.hxx>
+#include <BRepAlgoAPI_Fuse.hxx>
+#include <BRepPrimAPI_MakeSphere.hxx>
 #include <BRepTools_WireExplorer.hxx>
 #include <Geom_Surface.hxx>
 #include <GeomAdaptor_Surface.hxx>
@@ -29,6 +31,7 @@
 #include <STEPControl_Controller.hxx>
 #include <Interface_Static.hxx>
 #include <STEPCAFControl_Reader.hxx>
+#include <STEPCAFControl_Writer.hxx>
 #include <TDF_Label.hxx>
 #include <TDF_LabelSequence.hxx>
 #include <TDocStd_Document.hxx>
